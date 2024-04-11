@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fefafa;
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    
+}
+#home {
+    background-color: black;
+}
+#section1 {
+    background-image: url(https://i.pinimg.com/originals/74/c3/43/74c34377bc1fa4d3136afce4be11c8a0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#section2 {
+    color: #f9f7f7;
+    background-image: url(https://image3.mouthshut.com/images/imagesp/925793881s.jpg);
+}
+#section3{
+    color:#d23708;
+    background-image: url(https://i.ytimg.com/vi/K7czW1UNVj4/maxresdefault.jpg);
+}
+
+#section4 {
+    color: lavender;
+    background-image: url(https://www.renttempotraveller.com/images/im/gg2.jpg);
+}
+#section5{
+    background-image: url(https://edge.ixigo.com/ixi-api/img/53394dbde4b0d8e5e1613932_600x315.jpg);
+}
+
+.content {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #121111;
+    color: #f9f5f5;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .parallax {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 18px;
+    }
+}
